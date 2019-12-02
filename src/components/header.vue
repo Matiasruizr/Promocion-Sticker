@@ -9,8 +9,8 @@
 export default {
   data () {
     return {
-      primary: 'Biggie',
-      secend: 'Código:',
+      primary: '',
+      secend: 'Código: Biggie',
       third: 'Usa este código en nuestra tienda para descuentos',
     }
   }
