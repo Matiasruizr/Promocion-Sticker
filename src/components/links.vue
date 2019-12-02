@@ -17,7 +17,7 @@ export default {
       list: [
         {
           icon: 'fa-home',
-          link: 'https://notorious.cl',
+          link: 'https://notoriousgrow.com',
           value: 'Growshop'
         },
         {
