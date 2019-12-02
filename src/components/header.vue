@@ -7,7 +7,7 @@
           <button type="button"
             v-clipboard:copy="message"
             v-clipboard:success="onCopy"
-            v-clipboard:error="onError">Copy!</button>
+            v-clipboard:error="onError">Copiar código!</button>
         </div>
       </template>
     <h1 class="primary-title">{{primary}}</h1>   
