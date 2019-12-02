@@ -31,7 +31,7 @@ export default {
           value: 'Facebook'
         },
         {
-          icon: 'fa-bimobject',
+          icon: 'fa-bootstrap',
           link: 'https://notorious.cl/blog/',
           value: 'Blog'
         }
