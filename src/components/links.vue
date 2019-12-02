@@ -16,17 +16,17 @@ export default {
     return {
       list: [
         {
-          icon: 'fa-github',
+          icon: 'fa-store',
           link: 'https://notorious.cl',
           value: 'Tienda'
         },
         {
-          icon: 'fa-book',
+          icon: 'fa-instagram',
           link: 'https://www.instagram.com/notorious_grow/',
           value: 'Instagram'
         },
         {
-          icon: 'fa-level-up',
+          icon: 'fa-facebook',
           link: 'https://www.facebook.com/Notorious.cl/',
           value: 'Facebook'
         }
