@@ -1,9 +1,15 @@
 <template>
   <div>
     <h2 class="secend-title">{{secend}}</h2>
-    <span class="btn btn-info text-white copy-btn ml-auto" @click.stop.prevent="copyTestingCode">
-              Copy
-            </span>
+      <template id="t">
+        <div class="container">
+          <input type="text" v-model="message">
+          <button type="button"
+            v-clipboard:copy="message"
+            v-clipboard:success="onCopy"
+            v-clipboard:error="onError">Copy!</button>
+        </div>
+      </template>
     <h1 class="primary-title">{{primary}}</h1>   
     <p class="third-title">{{third}}</p>
   </div>
@@ -17,26 +23,25 @@ export default {
       third: 'Usa este código en nuestra tienda para descuentos',
     }
   },
-  methods: {
-        copyTestingCode () {
-          let testingCodeToCopy = document.querySelector('Biggie')
-          testingCodeToCopy.setAttribute('type', 'text')    // 不是 hidden 才能複製
-          testingCodeToCopy.select()
-
-          try {
-            var successful = document.execCommand('copy');
-            var msg = successful ? 'successful' : 'unsuccessful';
-            alert('Testing code was copied ' + msg);
-          } catch (err) {
-            alert('Oops, unable to copy');
-          }
-
-          /* unselect the range */
-          testingCodeToCopy.setAttribute('type', 'hidden')
-          window.getSelection().removeAllRanges()
-        },
-},
 }
+
+new Vue({
+  el: '#app',
+  template: '#t',
+  data: function () {
+    return {
+      message: 'Copy These Text'
+    }
+  },
+  methods: {
+    onCopy: function (e) {
+      alert('You just copied: ' + e.text)
+    },
+    onError: function (e) {
+      alert('Failed to copy texts')
+    }
+  }
+})
 </script>
 
 <style>
