@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="primary-title">{{primary}}</h1>
     <h2 class="secend-title">{{secend}}</h2>
+    <h1 class="primary-title">{{primary}}</h1>   
     <p class="third-title">{{third}}</p>
   </div>
 </template>
@@ -9,8 +9,8 @@
 export default {
   data () {
     return {
-      primary: '',
-      secend: 'Código: Biggie ',
+      primary: 'Biggie',
+      secend: 'Código:',
       third: 'Usa este código en nuestra tienda para descuentos',
     }
   }
