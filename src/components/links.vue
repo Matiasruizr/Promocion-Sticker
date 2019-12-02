@@ -18,7 +18,7 @@ export default {
         {
           icon: 'fa-houzz',
           link: 'https://notorious.cl',
-          value: 'Tienda'
+          value: 'Growshop'
         },
         {
           icon: 'fa-instagram',
@@ -29,6 +29,11 @@ export default {
           icon: 'fa-facebook',
           link: 'https://www.facebook.com/Notorious.cl/',
           value: 'Facebook'
+        },
+        {
+          icon: 'fa-blogger',
+          link: 'https://notorious.cl/blog/',
+          value: 'Blog'
         }
       ]
     }
@@ -58,6 +63,9 @@ a:hover {
   background-color: #fff;
   color: #000;
   transition: 0.2s ease;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 1060px){
     ul{
