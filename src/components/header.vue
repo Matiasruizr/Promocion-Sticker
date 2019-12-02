@@ -8,8 +8,8 @@
 export default {
   data () {
     return {
-      primary: 'Landing Page',
-      secend: '点击以下链接开始'
+      primary: 'Usa este código al comprar y aprovecha el descuento',
+      secend: 'Código: Biggie '
     }
   }
 }
