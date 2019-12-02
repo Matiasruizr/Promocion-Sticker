@@ -2,7 +2,7 @@
   <div>
     <h1 class="primary-title">{{primary}}</h1>
     <h2 class="secend-title">{{secend}}</h2>
-    <h2 class="third-title">{{third}}</h2>
+    <p class="third-title">{{third}}</p>
   </div>
 </template>
 <script>
