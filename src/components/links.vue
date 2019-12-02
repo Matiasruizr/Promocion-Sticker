@@ -16,7 +16,7 @@ export default {
     return {
       list: [
         {
-          icon: 'fa-houzz',
+          icon: 'fa-home',
           link: 'https://notorious.cl',
           value: 'Growshop'
         },
@@ -31,7 +31,7 @@ export default {
           value: 'Facebook'
         },
         {
-          icon: 'fa-font-awesome',
+          icon: 'fa-houzz',
           link: 'https://notorious.cl/blog/',
           value: 'Blog'
         }
