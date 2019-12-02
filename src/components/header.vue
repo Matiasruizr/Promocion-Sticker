@@ -1,7 +1,8 @@
 /* eslint-disable */
 <template>
   <div>
-    <img src="http://notorious.cl/promocion/logo%20nuevo%20chico.png" />
+    <p align="center">
+    <img src="http://notorious.cl/promocion/logo%20nuevo%20chico.png" /></p>
     <p align="center">
     <h2 class="secend-title">{{secend}}</h2>
     </p></br>
