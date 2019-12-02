@@ -1,6 +1,11 @@
 body{
     overflow: hidden;
     padding: 0;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
 }
 body,h1,h2,h3,p{
     font-family: 'Chelsea', Tahoma, Geneva, Verdana, sans-serif;
