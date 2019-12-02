@@ -1,4 +1,7 @@
 /* eslint-disable */
+<template lang="html">
+  <img src="http://notorious.cl/promocion/logo%20nuevo%20chico.png" >
+</template>
 <template>
   <div id="app">
     <v-Header/>
