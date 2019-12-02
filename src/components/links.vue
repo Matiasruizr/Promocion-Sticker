@@ -16,7 +16,7 @@ export default {
     return {
       list: [
         {
-          icon: 'fa-cannabis',
+          icon: 'fa-houzz',
           link: 'https://notorious.cl',
           value: 'Tienda'
         },
