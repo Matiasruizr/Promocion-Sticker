@@ -3,18 +3,24 @@
     <h2 class="secend-title">{{secend}}</h2>
       <template id="t">
         <div class="container">
-          <input type="text" v-model="message">
-          <button type="button"
-            v-clipboard:copy="message"
-            v-clipboard:success="onCopy"
-            v-clipboard:error="onError">Copiar código!</button>
+          <p align="center">
+            <button v-clipboard="'Biggie'">Copiar código!</button>
+            </p>
         </div>
       </template>
     <h1 class="primary-title">{{primary}}</h1>   
     <p class="third-title">{{third}}</p>
   </div>
 </template>
+
+npm
 <script>
+import Clipboard from 'v-clipboard'
+import Vue from 'vue'
+
+Vue.use(Clipboard)
+
+
 export default {
   data () {
     return {
@@ -25,27 +31,13 @@ export default {
   },
 }
 
-new Vue({
-  el: '#app',
-  template: '#t',
-  data: function () {
-    return {
-      message: 'Copy These Text'
-    }
-  },
-  methods: {
-    onCopy: function (e) {
-      alert('You just copied: ' + e.text)
-    },
-    onError: function (e) {
-      alert('Failed to copy texts')
-    }
-  }
-})
+
+
+
 </script>
 
 <style>
-h1,h2,h3{
+h1,h2,h3,{
   transition: .2s ease;
   letter-spacing: 4px;
   padding: 8px 0;
@@ -62,5 +54,10 @@ h3{
 }
 p{
   text-align: center;
+}
+.button{
+  text-align: center;
+  transition: .2s ease;
+  margin: auto;
 }
 </style>

@@ -14,6 +14,7 @@
     "jquery": "^3.3.1",
     "js-yaml": ">=3.13.1",
     "server-static": "^2.0.5",
+    "v-clipboard": "^2.2.2",
     "vue": "^2.6.10",
     "webpack-bundle-analyzer": ">=3.3.2",
     "webpack-dev-server": "^3.3.1"
