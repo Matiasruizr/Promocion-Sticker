@@ -1,6 +1,9 @@
+/* eslint-disable */
 <template>
   <div>
+    <p align="center">
     <h2 class="secend-title">{{secend}}</h2>
+    </p>
       <template id="t">
         <div class="container">
           <p align="center">
