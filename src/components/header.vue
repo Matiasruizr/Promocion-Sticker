@@ -30,6 +30,6 @@ h2{
   font-size: 4vw;
 }
 h3{
-  font-size: 2vw;
+  font-size: 1vw;
 }
 </style>

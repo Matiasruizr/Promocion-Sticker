@@ -2,7 +2,7 @@ body{
     overflow: hidden;
     padding: 0;
 }
-body,h1,h2,p{
+body,h1,h2,h3,p{
     font-family: 'Chelsea', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     margin: 0;
