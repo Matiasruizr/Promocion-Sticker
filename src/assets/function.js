@@ -9,7 +9,7 @@ $(document).ready(() => {
 
 function setBackground(){
     const background = [
-        'https://heabbi.com/wp-content/uploads/2018/05/biggie-smalls-full.jpg',
+        // 'https://heabbi.com/wp-content/uploads/2018/05/biggie-smalls-full.jpg',
         'https://miro.medium.com/max/2960/1*z7MMtcltsXpg8ReeWSmbfg.jpeg',
         // 'https://ww1.sinaimg.cn/large/0060lm7Tly1fjfivzadbwj31kw0w0k4s.jpg',
         // 'https://ww1.sinaimg.cn/large/0060lm7Tly1fjfi88qcdpj31hc0u00xy.jpg',

@@ -32,4 +32,7 @@ h2{
 h3{
   font-size: 1vw;
 }
+p{
+  text-align: center;
+}
 </style>
