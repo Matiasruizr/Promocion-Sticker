@@ -3,7 +3,7 @@
   <div id="app">
     <v-Header/>
     <Links/>
-    <p id="hitokoto">加载中...</p>
+    <!-- <p id="hitokoto">加载中...</p> -->
   </div>
 </template>
 

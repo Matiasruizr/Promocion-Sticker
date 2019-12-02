@@ -17,18 +17,18 @@ export default {
       list: [
         {
           icon: 'fa-github',
-          link: 'https://github.com/Miya-Yukarin/Vue-LandingPage',
-          value: 'GitHub'
+          link: 'https://notorious.cl',
+          value: 'Tienda'
         },
         {
           icon: 'fa-book',
-          link: 'https://github.com/Miya-Yukarin/Vue-LandingPage/blob/master/README.md',
-          value: 'Manual'
+          link: 'https://www.instagram.com/notorious_grow/',
+          value: 'Instagram'
         },
         {
           icon: 'fa-level-up',
-          link: 'https://shizu17.pw/old',
-          value: 'Another Demo'
+          link: 'https://www.facebook.com/Notorious.cl/',
+          value: 'Facebook'
         }
       ]
     }
