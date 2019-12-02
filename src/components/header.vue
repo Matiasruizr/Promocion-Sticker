@@ -10,8 +10,8 @@ export default {
   data () {
     return {
       primary: 'Notorious',
-      secend: 'Código Descuento: Biggie '
-      third: 'Usa este código en nuestra tienda para descuentos'
+      secend: 'Código Descuento: Biggie ',
+      third: 'Usa este código en nuestra tienda para descuentos',
     }
   }
 }
@@ -28,7 +28,6 @@ h1{
 }
 h2{
   font-size: 4vw;
-}
 }
 h3{
   font-size: 2vw;
